@@ -2,15 +2,20 @@
 
 ```
 tugas-clustering-online-retail/
+├── code/
+│   └── clustering_analysis.py
 ├── data/
-│   └── Online_Retail_raw.csv        
+│   └── mall_customer_cleaned.csv
+│   └── mall_customer_raw.csv
+│   └── mall_customer_with_cluster.csv          
 ├── notebook/
-│   └── Customer_Segmentation_Clustering.ipynb   
+│   └── clustering_notebook.ipynb   
 ├── laporan/
-│   └── Laporan_Tugas_Akhir_Clustering.md        
+│   └── laporan.md        
 ├── outputs/                          
 ├── requirements.txt                  
-└── README.md                 
+└── README.md
+├── visualisasi_clustering.png        
 ```
 
 ## 🚀 Cara Menjalankan
