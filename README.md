@@ -14,7 +14,7 @@ tugas-clustering-online-retail/
 │   └── laporan.md        
 ├── outputs/                          
 ├── requirements.txt                  
-└── README.md
+├── README.md
 ├── visualisasi_clustering.png        
 ```
 
