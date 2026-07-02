@@ -22,7 +22,7 @@ tugas-clustering-online-retail/
 
 ### Opsi 1: Jalankan script Python
 ```bash
-python clustering_analysis.py
+python /workspaces/UAS-DATA-MINING/code/clustering_analysis.py
 ```
 
 ### Opsi 2: Buka Jupyter Notebook
