@@ -2,10 +2,10 @@
 =============================================================
 Tugas Proyek Akhir: Preprocessing & Clustering
 Dataset: Mall Customer Segmentation
-Nama:
-Nim:
-Kelas:
-Mata Kuliah:
+Nama: Angres Fanrehalt
+Nim: 241011400778
+Kelas: 04TPLM008
+Mata Kuliah: DATA MINING
 =============================================================
 """
 
@@ -33,7 +33,7 @@ print("=" * 60)
 # 1. LOAD DATASET
 # ─────────────────────────────────────────────
 print("\n[1] LOAD DATASET")
-df_raw = pd.read_csv("mall_customers_raw.csv")
+df_raw = pd.read_csv("/workspaces/UAS-DATA-MINING/data/mall_customers_raw.csv")
 print(f"Shape awal  : {df_raw.shape}")
 print(f"Kolom       : {list(df_raw.columns)}")
 print("\nSample data (5 baris pertama):")
@@ -73,7 +73,7 @@ print(f"Nilai unik Gender sesudah: {df['Gender'].unique()}")
 df["Gender_Enc"] = df["Gender"].map({"male": 0, "female": 1})
 
 # 2e. Simpan cleaned dataset
-df.to_csv("mall_customers_cleaned.csv", index=False)
+df.to_csv("/workspaces/UAS-DATA-MINING/data/mall_customers_cleaned.csv", index=False)
 print(f"\nDataset bersih disimpan: {df.shape}")
 
 # ─────────────────────────────────────────────
@@ -310,7 +310,7 @@ print("Visualisasi disimpan: visualisasi_clustering.png")
 # 7. SIMPAN HASIL
 # ─────────────────────────────────────────────
 df.to_csv("mall_customers_with_clusters.csv", index=False)
-print("\nDataset dengan label cluster disimpan: mall_customers_with_clusters.csv")
+print("\nDataset dengan label cluster disimpan: /workspaces/UAS-DATA-MINING/data/mall_customers_with_clusters.csv")
 
 print("\n" + "=" * 60)
 print("ANALISIS SELESAI")
