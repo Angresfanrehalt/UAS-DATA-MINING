@@ -309,7 +309,7 @@ print("Visualisasi disimpan: visualisasi_clustering.png")
 # ─────────────────────────────────────────────
 # 7. SIMPAN HASIL
 # ─────────────────────────────────────────────
-df.to_csv("mall_customers_with_clusters.csv", index=False)
+df.to_csv("/workspaces/UAS-DATA-MINING/data/mall_customers_with_clusters.csv", index=False)
 print("\nDataset dengan label cluster disimpan: /workspaces/UAS-DATA-MINING/data/mall_customers_with_clusters.csv")
 
 print("\n" + "=" * 60)
