@@ -1,4 +1,4 @@
-# 📁 Struktur Folder Tugas Clustering
+#  Struktur Folder Tugas Clustering
 
 ```
 tugas-clustering-online-retail/
@@ -18,7 +18,7 @@ tugas-clustering-online-retail/
 ├── visualisasi_clustering.png        
 ```
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ### Opsi 1: Jalankan script Python
 ```bash
@@ -30,7 +30,7 @@ python /workspaces/UAS-DATA-MINING/code/clustering_analysis.py
 jupyter notebook clustering_notebook.ipynb
 ```
 
-## 📋 Requirements
+##  Requirements
 ```
 pandas
 numpy
@@ -40,7 +40,7 @@ seaborn
 ```
 Install: `pip install pandas numpy scikit-learn matplotlib seaborn`
 
-## 📊 Hasil
+##  Hasil
 - Dataset: Mall Customer Segmentation
 - Algoritma: K-Means Clustering
 - K Optimal: 7 (Silhouette Score: 0.3294)
