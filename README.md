@@ -1,15 +1,16 @@
 # 📁 Struktur Folder Tugas Clustering
 
 ```
-tugas_clustering/
-├── mall_customers_raw.csv         
-├── mall_customers_cleaned.csv     
-├── mall_customers_with_clusters.csv
-├── clustering_analysis.py          
-├── clustering_notebook.ipynb       
-├── visualisasi_clustering.png      
-├── laporan.md                      
-└── README.md                       
+tugas-clustering-online-retail/
+├── data/
+│   └── Online_Retail_raw.csv        
+├── notebook/
+│   └── Customer_Segmentation_Clustering.ipynb   
+├── laporan/
+│   └── Laporan_Tugas_Akhir_Clustering.md        
+├── outputs/                          
+├── requirements.txt                  
+└── README.md                 
 ```
 
 ## 🚀 Cara Menjalankan
